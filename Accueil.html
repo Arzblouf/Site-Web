@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fondation SCP</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Fondation SCP</h1>
+            <nav>
+                <a href="Accueil.html">Accueil</a>
+                <a href="Page_1.html">Quelques SCPs</a>
+                <a href="Page_2.html">Nouveautés</a>
+                <a href="Page_3.html">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+
+            <div class="main-content">
+                <h2>Bienvenue à la Fondation SCP</h2>
+                <p>La Fondation SCP est une organisation "fictive" qui sécurise, contient et protège le monde d'entités, objects ou phénomènes anormaux. Explorez les bases de données de SCPs et apprenez en plus sur les étrangetés et mystéres de notre monde.</p>
+                
+                <h3>SCPs en vedette.</h3>
+                <ul>
+                    <li><a href="http://fondationscp.wikidot.com/scp-106">SCP-106 - Le Vieil Homme</a></li>
+                    <li><a href="https://scp-wiki.wikidot.com/ouroboros">SCP-001 - Ouroboros</a></li>
+                    <li><a href="http://fondationscp.wikidot.com/scp-073">SCP-073 - Caïn</a></li>
+                </ul>
+                
+                <h3>Dernières Nouveautés</h3>
+                <p>Restez à l'affût des dernières nouveautés et découvertes de la Fondation SCP.</p>
+            </div>
+
+            <div class="form-container">
+                <h3>Inscrivez à notre Newsletter.</h3>
+                <form action="#" method="post">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telephone">Numéro de téléphone :</label>
+                    <input type="tel" id="telephone" name="telephone" required>
+
+                    <label for="emails-evenements">Souhaitez vous recevoir des mails à propos des évènements liés à la Fondation SCP ?</label>
+                    <select id="emails-evenements" name="emails-evenements" required>
+                        <option value="yes">Oui</option>
+                        <option value="no">Non</option>
+                    </select>
+
+                    <button type=" submit">Inscription</button>
+                </form>
+            </div>
+        </div>
+
+        <button id="theme-toggle" style="margin: 20px; padding: 10px; cursor: pointer;">Activer le mode sombre.</button>
+
+        <footer>
+            <p>&copy; 2025 Fondation SCP. Tout droits reservés.</p>
+        </footer>
+
+        <script src="JavaScript/Boutton_dark_mode.js"></script>
+
+    </body>
+</html>

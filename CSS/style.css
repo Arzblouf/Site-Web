@@ -1,0 +1,324 @@
+/*Theme Clair*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Formulaire pour la page d'accueil*/
+.form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formcontainer button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #0056b3;
+}
+
+/*Pour la page de nouveautés*/
+.news-article {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-article h2 {
+    margin-top: 0;
+}
+
+/*Pour la page avec le tableau*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+.cell {
+    background: #e9ecef;
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+/*Pour la page de contact*/
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+.clickable-image {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #222;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Theme Sombre*/
+body.dark {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header.dark {
+    background: #1f1f1f;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav.dark {
+    margin: 20px 0;
+}
+
+nav a.dark {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover.dark{
+    text-decoration: underline;
+}
+
+.container.dark {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-content.dark {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/*Formulaire pour la page d'accueil*/
+.form-container.dark {
+    margin-top: 20px;
+    padding: 20px;
+    background: #2a2a2a;
+    border-radius: 5px;
+}
+
+.form-container input.dark, .form-container select.dark {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #e0e0e0;
+}
+
+.form-container button.dark {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover.dark {
+    background: #0056b3;
+}
+
+/*Pour la page de nouveautés*/
+.news-article.dark {
+    background: #1e1e1e;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.news-article h2.dark {
+    margin-top: 0;
+    color: #fff;
+}
+
+/*Pour la page avec le tableau*/
+table.dark {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td.dark {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+th.dark {
+    background: #007bff;
+    color: white;
+}
+
+.cell.dark {
+    background: #333;
+    font-weight: bold;
+}
+
+img.dark {
+    width: 200px;
+    height: auto;
+}
+
+/*Pour la page de contact*/
+.contact-form.dark {
+    background: #1e1e1e;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.contact-form input.dark, .contact-form textarea.dark {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #e0e0e0;
+}
+
+.contact-form button.dark {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover.dark {
+    background: #0056b3;
+}
+
+.clickable-image.dark {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+}
+
+footer.dark {
+    text-align: center;
+    padding: 10px 0;
+    background: #1f1f1f;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
