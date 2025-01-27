@@ -50,18 +50,33 @@
                     <label for="telephone">Numéro de téléphone :</label>
                     <input type="tel" id="telephone" name="telephone" required>
 
-                    <label for="emails-evenements">Souhaitez vous recevoir des mails à propos des évènements liés à la Fondation SCP ?</label>
-                    <select id="emails-evenements" name="emails-evenements" required>
-                        <option value="yes">Oui</option>
-                        <option value="no">Non</option>
-                    </select>
+                    <label for="emails-evenements">Souhaitez vous recevoir des mails concernant les évènements liés à la Fondation SCP ?</label>
+                    <br>
+                    <br>
+                    Non
+                    <input type="radio" id="emails-evenements-non" name="emails-evenements" required>
+                    Seulement les plus importants
+                    <input type="radio" id="emails-evenements-importants" name="emails-evenements" required>
+                    Tous
+                    <input type="radio" id="emails-evenements-oui" name="emails-evenements" required>
+                    <br>
+
+                    <label for="cookie">J'accepte que mes données personnelles soient transmises aux autorités compétentes.</label>
+                    <br>
+                    J'accepte uniquement les cookies essentiels.
+                    <input type="checkbox" id="cookie-necessaires" name="cookie" required>
+                    <br>
+                    J'accepte aussi les cookies non essentiels.
+                    <input type="checkbox" id="cookie-tout" name="cookie">
+                    <br>
+                    <br>
 
                     <button type=" submit">Inscription</button>
                 </form>
             </div>
         </div>
 
-        <button id="theme-toggle" style="margin: 20px; padding: 10px; cursor: pointer;">Activer le mode sombre.</button>
+        <button id="theme-toggle" type="bouton-dark-mode">Activer le mode sombre.</button>
 
         <footer>
             <p>&copy; 2025 Fondation SCP. Tout droits reservés.</p>
