@@ -95,6 +95,7 @@ li a {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .bouton-dark-mode:hover {
     text-decoration: underline;
     transform: scale(1.1);
