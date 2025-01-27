@@ -61,14 +61,14 @@ li a {
     border-radius: 5px;
 }
 
-.form-container input[type="radio"]{
+.form-container input[type="radio"] {
     display: flex;
     align-items: center;
     width: auto;
     margin-right: 10px;
 }
 
-.form-container input[type="checkbox"]{
+.form-container input[type="checkbox"] {
     align-items: center;
     width: auto;
     margin-right: 10px;
@@ -95,7 +95,7 @@ li a {
     border-radius: 5px;
     cursor: pointer;
 }
-.bouton-dark-mode:hover{
+.bouton-dark-mode:hover {
     text-decoration: underline;
     transform: scale(1.1);
 }
@@ -249,14 +249,14 @@ nav a:hover.dark{
     color: #e0e0e0;
 }
 
-.form-container input[type="radio"].dark{
+.form-container input[type="radio"].dark {
     display: flex;
     align-items: center;
     width: auto;
     margin-right: 10px;
 }
 
-.form-container input[type="checkbox"].dark{
+.form-container input[type="checkbox"].dark {
     align-items: center;
     width: auto;
     margin-right: 10px;
